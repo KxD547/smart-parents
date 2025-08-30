@@ -41,7 +41,8 @@ CREATE TABLE eventos (
     (4, 'administrador', '1033491837', 'Salome', '', 'Patiño', 'Escobar', 'salome@gmail.com', '3017868373', '$2y$10$6CZHwM50Tyr4O7ZQyrkdJuCsCcFJtGls/jgIyxxKixCyRNW0.eTo.', 'Administración', '2025-08-19 21:27:13', '2025-08-19 21:27:13'),
     (5, 'administrador', '1018239403', 'Juan', 'Jose', 'Tabares', 'Villa', 'Juan@gmail.com', '3177509727', '$2y$10$cHQRo.m3ZPMWEjMVZW.yqOlWAI1sGqJqH7hiADsU8Rdp.zZtSio7S', 'Administración', '2025-08-19 21:29:17', '2025-08-19 21:29:17'),
     (6, 'administrador', '1138025359', 'Lauren', 'Cristina', 'Villadiego', 'Ortega', 'lauren@gmail.com', '3009631614', '$2y$10$M9muVzGQ3n3uDBIFoUE8z.MVpIixX5E5kC5wRXdoN2mxqfETKzVbK', 'Administración', '2025-08-19 21:30:41', '2025-08-19 21:30:41'),
-    (7, 'estudiante', '1122334455', 'test', '', 'user', '', 'test@test.com', '1122334455', '$2y$10$WM5qJQSgwc/27jHpznwqke3JHAXcRvzgQPjdPTIbgW4Oj/pfdVKeq', NULL, '2025-08-30 18:08:07', '2025-08-30 18:08:07');
+    (7, 'estudiante', '1122334455', 'test', '', 'user', '', 'test@test.com', '1122334455', '$2y$10$WM5qJQSgwc/27jHpznwqke3JHAXcRvzgQPjdPTIbgW4Oj/pfdVKeq', NULL, '2025-08-30 18:08:07', '2025-08-30 18:08:07'),
+    (8, 'profesor', '1112223334', 'test', '', 'profe', '', 'profe@test.com', '1112223334', '$2y$10$KL/S7nQ0apfe/68M2wW7C.F6FIN9fRfX.AsZ6MW8v.rWpmJIk1Tgm', 'Español', '2025-08-30 19:05:10', '2025-08-30 19:05:10');
 
     -- EVENTOS --
     INSERT INTO `eventos` (`id_evento`, `id_usuario`, `tipo_evento`, `descripcion`, `registrado_por`, `created_at`, `updated_at`) VALUES
